@@ -1,3 +1,7 @@
+prefer-workspace-packages: true
 packages:
   - "apps/*"
   - "packages/*"
+  - "frameworks/*"
+  - "components/**"
+  - "!**/test/**"
